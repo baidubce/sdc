@@ -1,0 +1,51 @@
+{
+  "name": "cts-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "acud": "^1.0.29",
+    "axios": "^0.21.0",
+    "markdown-it-katex": "^2.0.3",
+    "less-loader": "^11.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3"
+  },
+  "scripts": {
+    "serve": "PORT=8085 react-app-rewired start",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "customize-cra": "^1.0.0",
+    "event-source-polyfill": "^1.0.31",
+    "markdown-it": "^13.0.1",
+    "prismjs": "^1.29.0",
+    "react-app-rewired": "^2.1.7",
+    "react-scripts": "5.0.1"
+  },
+  "homepage": "./"
+}

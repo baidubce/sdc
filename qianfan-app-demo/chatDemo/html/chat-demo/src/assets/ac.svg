@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>图标</title>
+    <g id="Demo0.8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="console备份" transform="translate(-185.000000, -7119.000000)">
+            <g id="图标" transform="translate(185.000000, 7119.000000)">
+                <rect id="矩形" stroke="#979797" fill="#D8D8D8" opacity="0" x="0.5" y="0.5" width="15" height="15"></rect>
+                <polygon id="矩形" fill="#2468F2" points="0 0 16 0 0 16"></polygon>
+                <polygon id="图标-填色" fill="#FFFFFF" transform="translate(5.328616, 4.828616) rotate(-45.000000) translate(-5.328616, -4.828616) " points="7.82835122 5.32873354 7.82905832 6.32787542 3.82816427 6.32688547 2.82817386 6.32844111 2.82888097 3.32879108 3.82731575 3.32879108 3.82745717 5.32774359"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
