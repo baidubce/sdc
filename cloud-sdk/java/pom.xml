@@ -5,15 +5,15 @@
     <artifactId>baiducloud-sdk</artifactId>
     <packaging>jar</packaging>
     <name>baiducloud-sdk</name>
-    <version>1.0.0</version>
-    <url>https://github.com/baidubce/sdc/tree/mian/cloud-sdk/java</url>
+    <version>1.0.1</version>
+    <url>https://github.com/baidubce/sdc/tree/main/cloud-sdk/java</url>
     <description>Baidu Cloud SDK</description>
     <scm>
-        <url>https://github.com/baidubce/sdc/tree/mian/cloud-sdk/java</url>
+        <url>https://github.com/baidubce/sdc/tree/main/cloud-sdk/java</url>
     </scm>
     <developers>
         <developer>
-            <name>baidu-sdc</name>
+            <name>Baidu-SDC</name>
         </developer>
     </developers>
 

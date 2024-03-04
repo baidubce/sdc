@@ -7,7 +7,7 @@
 <dependency>
   <groupId>io.github.baidubce</groupId>
   <artifactId>baiducloud-sdk</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -19,7 +19,7 @@
   }
 
   dependencies {
-     implementation "io.github.baidubce:baiducloud-sdk:1.0.0"
+     implementation "io.github.baidubce:baiducloud-sdk:1.0.1"
   }
 ```
 

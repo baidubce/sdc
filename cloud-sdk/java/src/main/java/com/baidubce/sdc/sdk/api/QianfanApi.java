@@ -108,6 +108,9 @@ public class QianfanApi {
         Map<String, String> localVarCookieParams = new HashMap<String, String>();
         Map<String, Object> localVarFormParams = new HashMap<String, Object>();
 
+        localVarQueryParams.add(new Pair("source", "baiducloud-sdk"));
+        localVarQueryParams.add(new Pair("appName", "java"));
+        localVarQueryParams.add(new Pair("sourceVer", Configuration.VERSION));
         final String[] localVarAccepts = {
             "application/json"
         };
@@ -239,6 +242,9 @@ public class QianfanApi {
         Map<String, String> localVarCookieParams = new HashMap<String, String>();
         Map<String, Object> localVarFormParams = new HashMap<String, Object>();
 
+        localVarQueryParams.add(new Pair("source", "baiducloud-sdk"));
+        localVarQueryParams.add(new Pair("appName", "java"));
+        localVarQueryParams.add(new Pair("sourceVer", Configuration.VERSION));
         final String[] localVarAccepts = {
             "application/json"
         };
@@ -370,6 +376,9 @@ public class QianfanApi {
         Map<String, String> localVarCookieParams = new HashMap<String, String>();
         Map<String, Object> localVarFormParams = new HashMap<String, Object>();
 
+        localVarQueryParams.add(new Pair("source", "baiducloud-sdk"));
+        localVarQueryParams.add(new Pair("appName", "java"));
+        localVarQueryParams.add(new Pair("sourceVer", Configuration.VERSION));
         final String[] localVarAccepts = {
             "application/json"
         };
@@ -499,6 +508,9 @@ public class QianfanApi {
         Map<String, String> localVarCookieParams = new HashMap<String, String>();
         Map<String, Object> localVarFormParams = new HashMap<String, Object>();
 
+        localVarQueryParams.add(new Pair("source", "baiducloud-sdk"));
+        localVarQueryParams.add(new Pair("appName", "java"));
+        localVarQueryParams.add(new Pair("sourceVer", Configuration.VERSION));
         final String[] localVarAccepts = {
             "application/json"
         };
@@ -630,6 +642,9 @@ public class QianfanApi {
         Map<String, String> localVarCookieParams = new HashMap<String, String>();
         Map<String, Object> localVarFormParams = new HashMap<String, Object>();
 
+        localVarQueryParams.add(new Pair("source", "baiducloud-sdk"));
+        localVarQueryParams.add(new Pair("appName", "java"));
+        localVarQueryParams.add(new Pair("sourceVer", Configuration.VERSION));
         final String[] localVarAccepts = {
             "application/json"
         };
