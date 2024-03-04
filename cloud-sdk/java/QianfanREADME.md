@@ -12,13 +12,13 @@
 ### Demo
 
 ```java
-import com.baidubce.sdc.sdk.ApiCallback;
-import com.baidubce.sdc.sdk.ApiClient;
-import com.baidubce.sdc.sdk.ApiException;
-import com.baidubce.sdc.sdk.Configuration;
-import com.baidubce.sdc.sdk.auth.*;
-import com.baidubce.sdc.sdk.model.qianfan.*;
-import com.baidubce.sdc.sdk.api.QianfanApi;
+import com.baiducloud.sdk.ApiCallback;
+import com.baiducloud.sdk.ApiClient;
+import com.baiducloud.sdk.ApiException;
+import com.baiducloud.sdk.Configuration;
+import com.baiducloud.sdk.auth.*;
+import com.baiducloud.sdk.model.qianfan.*;
+import com.baiducloud.sdk.api.QianfanApi;
 
 public class Example {
   public static void main(String[] args) {

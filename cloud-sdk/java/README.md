@@ -7,7 +7,7 @@
 <dependency>
   <groupId>io.github.baidubce</groupId>
   <artifactId>baiducloud-sdk</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -19,17 +19,17 @@
   }
 
   dependencies {
-     implementation "io.github.baidubce:baiducloud-sdk:1.0.1"
+     implementation "io.github.baidubce:baiducloud-sdk:1.0.2"
   }
 ```
 
 ## Demo
 以千帆大模型平台的接口为例
 ```java
-import com.baidubce.sdc.sdk.*;// 引入SDK的基础包
-import com.baidubce.sdc.sdk.auth.*;// 引入鉴权包
-import com.baidubce.sdc.sdk.model.qianfan.*;// 引入产品模型包
-import com.baidubce.sdc.sdk.api.QianfanApi;// 引入产品接口类
+import com.baiducloud.sdk.*;// 引入SDK的基础包
+import com.baiducloud.sdk.auth.*;// 引入鉴权包
+import com.baiducloud.sdk.model.qianfan.*;// 引入产品模型包
+import com.baiducloud.sdk.api.QianfanApi;// 引入产品接口类
 
 public class Example {
   public static void main(String[] args) {
@@ -58,7 +58,7 @@ public class Example {
 ```
 
 ## 鉴权设置
-鉴权类位于com.baidubce.sdc.sdk.auth包下。
+鉴权类位于com.baiducloud.sdk.auth包下。
 > 不是所有的接口都支持所有的鉴权方式，具体可以查看[支持的产品](#supports-products)的API章节
 ### OAuth
 ```java
