@@ -5,7 +5,7 @@
     <artifactId>baiducloud-sdk</artifactId>
     <packaging>jar</packaging>
     <name>baiducloud-sdk</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <url>https://github.com/baidubce/sdc/tree/main/cloud-sdk/java</url>
     <description>Baidu Cloud SDK</description>
     <scm>
