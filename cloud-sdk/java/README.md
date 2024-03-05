@@ -188,7 +188,7 @@ ChatRequest chatRequest = new ChatRequest().addMessagesItem(new ChatMessage().ro
 // 反序列化构造
 ChatRequest chatRequest = ChatRequest.fromJson("{\"messages\":[{\"role\":\"user\",\"content\":\"你好\"}],\"stream\":true}");
 // 序列化
-String jsonString = chatRequest.chatRequest.toJson();
+String jsonString = chatRequest.toJson();
 ```
 
 ## 支持的产品
