@@ -2,6 +2,8 @@
 > 这是一个基于开源项目[***OpenAPI Generator***](https://openapi-generator.tech)生成的SDK，用于支持百度智能云产品提供的API调用，当前已支持的产品和接口参考[支持的产品](#supports-products)
 
 ## 使用
+> 需要Java 8+ 环境  
+特定环境（如反射场景）需要特定版本的可使用此源码编译对应版本
 ### Maven用户
 ```xml
 <dependency>
@@ -188,7 +190,7 @@ ChatRequest chatRequest = new ChatRequest().addMessagesItem(new ChatMessage().ro
 // 反序列化构造
 ChatRequest chatRequest = ChatRequest.fromJson("{\"messages\":[{\"role\":\"user\",\"content\":\"你好\"}],\"stream\":true}");
 // 序列化
-String jsonString = chatRequest.chatRequest.toJson();
+String jsonString = chatRequest.toJson();
 ```
 
 ## 支持的产品
